@@ -1,0 +1,11 @@
+C:\Users\Usuario_Asignado\Desktop\PRogramacionweb\WebServiceDatos.WS\WebServiceDatos.Logica\bin\Debug\WebServiceDatos.Logica.dll
+C:\Users\Usuario_Asignado\Desktop\PRogramacionweb\WebServiceDatos.WS\WebServiceDatos.Logica\bin\Debug\WebServiceDatos.Logica.pdb
+C:\Users\Usuario_Asignado\Desktop\PRogramacionweb\WebServiceDatos.WS\WebServiceDatos.Logica\obj\Debug\WebServiceDatos.Logica.csproj.CoreCompileInputs.cache
+C:\Users\Usuario_Asignado\Desktop\PRogramacionweb\WebServiceDatos.WS\WebServiceDatos.Logica\obj\Debug\WebServiceDatos.Logica.dll
+C:\Users\Usuario_Asignado\Desktop\PRogramacionweb\WebServiceDatos.WS\WebServiceDatos.Logica\obj\Debug\WebServiceDatos.Logica.pdb
+C:\Users\Usuario_Asignado\Documents\octavo\PRogramacionweb\WebServiceDatos.WS\WebServiceDatos.Logica\obj\Debug\WebServiceDatos.Logica.csproj.AssemblyReference.cache
+C:\Users\Usuario_Asignado\Documents\octavo\PRogramacionweb\WebServiceDatos.WS\WebServiceDatos.Logica\obj\Debug\WebServiceDatos.Logica.csproj.CoreCompileInputs.cache
+C:\Users\Usuario_Asignado\Documents\octavo\PRogramacionweb\WebServiceDatos.WS\WebServiceDatos.Logica\obj\Debug\WebServiceDatos.Logica.dll
+C:\Users\Usuario_Asignado\Documents\octavo\PRogramacionweb\WebServiceDatos.WS\WebServiceDatos.Logica\obj\Debug\WebServiceDatos.Logica.pdb
+C:\Users\Usuario_Asignado\Documents\octavo\PRogramacionweb\WebServiceDatos.WS\WebServiceDatos.Logica\bin\Debug\WebServiceDatos.Logica.dll
+C:\Users\Usuario_Asignado\Documents\octavo\PRogramacionweb\WebServiceDatos.WS\WebServiceDatos.Logica\bin\Debug\WebServiceDatos.Logica.pdb

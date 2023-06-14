@@ -1,0 +1,6 @@
+C:\Users\Usuario_Asignado\Desktop\PRogramacionweb\WebServiceDatos.WS\WebServiceDatos.Logica\bin\Release\WebServiceDatos.Logica.dll
+C:\Users\Usuario_Asignado\Desktop\PRogramacionweb\WebServiceDatos.WS\WebServiceDatos.Logica\bin\Release\WebServiceDatos.Logica.pdb
+C:\Users\Usuario_Asignado\Desktop\PRogramacionweb\WebServiceDatos.WS\WebServiceDatos.Logica\obj\Release\WebServiceDatos.Logica.csprojAssemblyReference.cache
+C:\Users\Usuario_Asignado\Desktop\PRogramacionweb\WebServiceDatos.WS\WebServiceDatos.Logica\obj\Release\WebServiceDatos.Logica.csproj.CoreCompileInputs.cache
+C:\Users\Usuario_Asignado\Desktop\PRogramacionweb\WebServiceDatos.WS\WebServiceDatos.Logica\obj\Release\WebServiceDatos.Logica.dll
+C:\Users\Usuario_Asignado\Desktop\PRogramacionweb\WebServiceDatos.WS\WebServiceDatos.Logica\obj\Release\WebServiceDatos.Logica.pdb
