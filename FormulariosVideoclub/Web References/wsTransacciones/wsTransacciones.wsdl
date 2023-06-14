@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="stInsertarTransacciones">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id_tran" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="id_producto" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="id_empleado" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="id_cliente" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tipo_tran" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Cantidad" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="fecha_registro" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="MontoxDia" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="Dias_renta" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="fecha_entrega" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Total" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="stInsertarTransaccionesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="stInsertarTransaccionesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataTrans">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetDataTransResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataTransResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BuscarTransaccion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id_tran" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BuscarTransaccionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BuscarTransaccionResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="actualizarTransaccion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id_tran" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="id_producto" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="id_empleado" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="id_cliente" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tipo_tran" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Cantidad" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="fecha_registro" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="MontoxDia" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="Dias_renta" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="fecha_entrega" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Total" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="actualizarTransaccionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="actualizarTransaccionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="eliminarTransaccion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id_transaccion" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="eliminarTransaccionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="eliminarTransaccionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="stInsertarTransaccionesSoapIn">
+    <wsdl:part name="parameters" element="tns:stInsertarTransacciones" />
+  </wsdl:message>
+  <wsdl:message name="stInsertarTransaccionesSoapOut">
+    <wsdl:part name="parameters" element="tns:stInsertarTransaccionesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataTransSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataTrans" />
+  </wsdl:message>
+  <wsdl:message name="GetDataTransSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataTransResponse" />
+  </wsdl:message>
+  <wsdl:message name="BuscarTransaccionSoapIn">
+    <wsdl:part name="parameters" element="tns:BuscarTransaccion" />
+  </wsdl:message>
+  <wsdl:message name="BuscarTransaccionSoapOut">
+    <wsdl:part name="parameters" element="tns:BuscarTransaccionResponse" />
+  </wsdl:message>
+  <wsdl:message name="actualizarTransaccionSoapIn">
+    <wsdl:part name="parameters" element="tns:actualizarTransaccion" />
+  </wsdl:message>
+  <wsdl:message name="actualizarTransaccionSoapOut">
+    <wsdl:part name="parameters" element="tns:actualizarTransaccionResponse" />
+  </wsdl:message>
+  <wsdl:message name="eliminarTransaccionSoapIn">
+    <wsdl:part name="parameters" element="tns:eliminarTransaccion" />
+  </wsdl:message>
+  <wsdl:message name="eliminarTransaccionSoapOut">
+    <wsdl:part name="parameters" element="tns:eliminarTransaccionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="wsTransaccionesSoap">
+    <wsdl:operation name="stInsertarTransacciones">
+      <wsdl:input message="tns:stInsertarTransaccionesSoapIn" />
+      <wsdl:output message="tns:stInsertarTransaccionesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataTrans">
+      <wsdl:input message="tns:GetDataTransSoapIn" />
+      <wsdl:output message="tns:GetDataTransSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BuscarTransaccion">
+      <wsdl:input message="tns:BuscarTransaccionSoapIn" />
+      <wsdl:output message="tns:BuscarTransaccionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="actualizarTransaccion">
+      <wsdl:input message="tns:actualizarTransaccionSoapIn" />
+      <wsdl:output message="tns:actualizarTransaccionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="eliminarTransaccion">
+      <wsdl:input message="tns:eliminarTransaccionSoapIn" />
+      <wsdl:output message="tns:eliminarTransaccionSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wsTransaccionesSoap" type="tns:wsTransaccionesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="stInsertarTransacciones">
+      <soap:operation soapAction="http://tempuri.org/stInsertarTransacciones" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataTrans">
+      <soap:operation soapAction="http://tempuri.org/GetDataTrans" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarTransaccion">
+      <soap:operation soapAction="http://tempuri.org/BuscarTransaccion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="actualizarTransaccion">
+      <soap:operation soapAction="http://tempuri.org/actualizarTransaccion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminarTransaccion">
+      <soap:operation soapAction="http://tempuri.org/eliminarTransaccion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsTransaccionesSoap12" type="tns:wsTransaccionesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="stInsertarTransacciones">
+      <soap12:operation soapAction="http://tempuri.org/stInsertarTransacciones" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataTrans">
+      <soap12:operation soapAction="http://tempuri.org/GetDataTrans" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarTransaccion">
+      <soap12:operation soapAction="http://tempuri.org/BuscarTransaccion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="actualizarTransaccion">
+      <soap12:operation soapAction="http://tempuri.org/actualizarTransaccion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminarTransaccion">
+      <soap12:operation soapAction="http://tempuri.org/eliminarTransaccion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wsTransacciones">
+    <wsdl:port name="wsTransaccionesSoap" binding="tns:wsTransaccionesSoap">
+      <soap:address location="http://localhost:52443/wsTransacciones.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wsTransaccionesSoap12" binding="tns:wsTransaccionesSoap12">
+      <soap12:address location="http://localhost:52443/wsTransacciones.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FormulariosVideoclub.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FormulariosVideoclub_wsEmpleados_wsEmpleados" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:52443/wsEmpleados.asmx</Value>
+    </Setting>
+    <Setting Name="FormulariosVideoclub_wsClientes_wsClientes" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:52443/wsClientes.asmx</Value>
+    </Setting>
+    <Setting Name="FormulariosVideoclub_wsProductos_wsProductos" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:52443/wsProductos.asmx</Value>
+    </Setting>
+    <Setting Name="FormulariosVideoclub_wsTransacciones_wsTransacciones" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:52443/wsTransacciones.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
