@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alberto\\Documents\\Proyectos GIT\\VideoClub\\Videoclub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BFC55493-20BB-46AF-8C9F-C802FD9C4C08}|FormulariosVideoclub\\FormulariosVideoclub.csproj|C:\\Users\\Alberto\\Documents\\Proyectos GIT\\VideoClub\\Videoclub\\formulariosvideoclub\\loguin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFC55493-20BB-46AF-8C9F-C802FD9C4C08}|FormulariosVideoclub\\FormulariosVideoclub.csproj|solutionrelative:formulariosvideoclub\\loguin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFC55493-20BB-46AF-8C9F-C802FD9C4C08}|FormulariosVideoclub\\FormulariosVideoclub.csproj|c:\\users\\alberto\\documents\\proyectos git\\videoclub\\videoclub\\formulariosvideoclub\\loguin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BFC55493-20BB-46AF-8C9F-C802FD9C4C08}|FormulariosVideoclub\\FormulariosVideoclub.csproj|solutionrelative:formulariosvideoclub\\loguin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19208059-5297-4B38-8DB8-0938A84F2B0C}|WebServiceDatos.WS\\WebServiceDatos.WS.csproj|C:\\Users\\Alberto\\Documents\\Proyectos GIT\\VideoClub\\Videoclub\\webservicedatos.ws\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{19208059-5297-4B38-8DB8-0938A84F2B0C}|WebServiceDatos.WS\\WebServiceDatos.WS.csproj|solutionrelative:webservicedatos.ws\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19208059-5297-4B38-8DB8-0938A84F2B0C}|WebServiceDatos.WS\\WebServiceDatos.WS.csproj|C:\\Users\\Alberto\\Documents\\Proyectos GIT\\VideoClub\\Videoclub\\webservicedatos.ws\\wsclientes.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19208059-5297-4B38-8DB8-0938A84F2B0C}|WebServiceDatos.WS\\WebServiceDatos.WS.csproj|solutionrelative:webservicedatos.ws\\wsclientes.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251D365C-FA53-4F9D-9D55-D7BB65DA0276}|WebServiceDatos.Logica\\WebServiceDatos.Logica.csproj|C:\\Users\\Alberto\\Documents\\Proyectos GIT\\VideoClub\\Videoclub\\webservicedatos.logica\\clases\\clsclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251D365C-FA53-4F9D-9D55-D7BB65DA0276}|WebServiceDatos.Logica\\WebServiceDatos.Logica.csproj|solutionrelative:webservicedatos.logica\\clases\\clsclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Loguin.aspx",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Documents\\Proyectos GIT\\VideoClub\\Videoclub\\FormulariosVideoclub\\Loguin.aspx",
+              "RelativeDocumentMoniker": "FormulariosVideoclub\\Loguin.aspx",
+              "ToolTip": "C:\\Users\\Alberto\\Documents\\Proyectos GIT\\VideoClub\\Videoclub\\FormulariosVideoclub\\Loguin.aspx",
+              "RelativeToolTip": "FormulariosVideoclub\\Loguin.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-07T01:51:40.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Loguin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Documents\\Proyectos GIT\\VideoClub\\Videoclub\\FormulariosVideoclub\\Loguin.aspx.cs",
+              "RelativeDocumentMoniker": "FormulariosVideoclub\\Loguin.aspx.cs",
+              "ToolTip": "C:\\Users\\Alberto\\Documents\\Proyectos GIT\\VideoClub\\Videoclub\\FormulariosVideoclub\\Loguin.aspx.cs",
+              "RelativeToolTip": "FormulariosVideoclub\\Loguin.aspx.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwAkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T01:50:22.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsClientes.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Documents\\Proyectos GIT\\VideoClub\\Videoclub\\WebServiceDatos.Logica\\Clases\\clsClientes.cs",
+              "RelativeDocumentMoniker": "WebServiceDatos.Logica\\Clases\\clsClientes.cs",
+              "ToolTip": "C:\\Users\\Alberto\\Documents\\Proyectos GIT\\VideoClub\\Videoclub\\WebServiceDatos.Logica\\Clases\\clsClientes.cs",
+              "RelativeToolTip": "WebServiceDatos.Logica\\Clases\\clsClientes.cs",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAAALoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T01:50:22.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "wsClientes.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Documents\\Proyectos GIT\\VideoClub\\Videoclub\\WebServiceDatos.WS\\wsClientes.asmx.cs",
+              "RelativeDocumentMoniker": "WebServiceDatos.WS\\wsClientes.asmx.cs",
+              "ToolTip": "C:\\Users\\Alberto\\Documents\\Proyectos GIT\\VideoClub\\Videoclub\\WebServiceDatos.WS\\wsClientes.asmx.cs",
+              "RelativeToolTip": "WebServiceDatos.WS\\wsClientes.asmx.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAG8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T01:50:22.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Documents\\Proyectos GIT\\VideoClub\\Videoclub\\WebServiceDatos.WS\\Web.config",
+              "RelativeDocumentMoniker": "WebServiceDatos.WS\\Web.config",
+              "ToolTip": "C:\\Users\\Alberto\\Documents\\Proyectos GIT\\VideoClub\\Videoclub\\WebServiceDatos.WS\\Web.config",
+              "RelativeToolTip": "WebServiceDatos.WS\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-07T01:50:22.485Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
